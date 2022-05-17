@@ -1,0 +1,96 @@
+h1 {
+  text-align: center;
+  padding: 25px;
+}
+
+.row .form-group.button {
+  margin-top: 10px;
+}
+
+.row .action-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row .action-buttons a {
+  margin-right: 10px;
+}
+
+.login {
+  text-align: center;
+  color: black;
+  border: 1px solid;
+  padding: 10px;
+  width: 100%;
+  -webkit-box-shadow: 4px 6px 8px 4px  #888888;
+          box-shadow: 4px 6px 8px 4px  #888888;
+  background-color: #0d644f;
+}
+
+.login a {
+  text-decoration: none;
+}
+
+.row1 {
+  max-width: 1080px;
+  text-align: center;
+  margin: auto;
+}
+
+.row1 .blocks-group .block {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.row1 .blocks-group .block.text {
+  border: 1px solid;
+  padding: 10px;
+  -webkit-box-shadow: 4px 6px 8px 4px  #888888;
+          box-shadow: 4px 6px 8px 4px  #888888;
+  background-color: #e89d9d;
+}
+
+.row1 .blocks-group .block.text h3 {
+  color: white;
+  padding: 20px;
+}
+
+.row1 .blocks-group .block.text p {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.row1 .blocks-group .block.contact {
+  color: black;
+  border: 1px solid;
+  padding: 10px;
+  -webkit-box-shadow: 4px 6px 8px 4px  #888888;
+          box-shadow: 4px 6px 8px 4px  #888888;
+  background-color: #6b0f3d;
+}
+
+.row1 .blocks-group .block.contact h3 {
+  color: white;
+  padding: 20px;
+}
+
+.row1 .blocks-group .block.contact li {
+  margin-top: 20px;
+  color: white;
+}
+
+.row1 .blocks-group .block.image {
+  color: red;
+}
+
+@media (max-width: 980px) {
+  .row .action-buttons {
+    display: unset;
+  }
+  .row .action-buttons a {
+    margin-right: unset;
+    margin-top: 5px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
